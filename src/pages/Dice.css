@@ -1,0 +1,15 @@
+
+
+.sectionOne {
+    display: flex;
+} 
+.headingDiv {
+    text-align: center;
+    margin-left: 750px;
+    margin-top: 200px;
+}
+.headingDiv > h1{
+    font-size: 100px;
+    color: white;
+    font-weight: 900;
+}

@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+.middleBlocks {
+    position: relative;
+    height:650px;
+    display: flex;
+    background-color: black;
+    background-image: black; 
+    width: 1170px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 0px;
+    margin-left: 320px;
+
+}
+
+
+.navbar {
+    background-color: #171c2b;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1210px;
+    margin-bottom: 20px;
+    margin-left: 270px;
+}
+
+.company-name {
+    color: white ;
+    margin-left: 50px;
+    
+}
+
+.company-name-header {
+    font-weight: 900;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.catGif {
+    position: relative;
+    height: 650px;
+    border-radius: 20px;
+    margin-left: 240px;
+}
+
+.documentation-button {
+    margin-left: 60px;
+  }
+
+.bn632-hover {
+    width: 140px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #e6e9ef;
+    cursor: pointer;
+    margin: 20px;
+    height: 40px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }  
+
+  .bellIconDiv {
+    background-color: #2e364e;
+    height: 40px;
+    width:60px;
+    border-radius: 15px;
+    margin-left: 600px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .bellIcon {
+    color: white;
+    font-size: 20px;
+  }
+
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+
+.top-left-text {
+    position: absolute;
+    display: flex;
+    color: rgb(211, 199, 199);
+    font-weight: 900;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.infoIcon {
+    font-size: 27px;
+    padding-top:3px;
+    color: rgb(226, 213, 213);
+    padding-left: 10px;
+    font-weight: 900;
+}
+
+.leaderboardButton {
+    transition: all .5s ease;
+    color: #546a9c;
+    border: 2px solid #546a9c;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1;
+    font-size: 14px;
+    background-color : transparent;
+    padding: 12px;
+    outline: none;
+    border-radius: 18px;
+    display: flex;
+    font-weight: 700;
+}
+.leaderboardButton:hover {
+    background-color: rgb(236, 226, 226);
+}
+
+.leaderDiv {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 1020px;
+}
+
+.leaderIcon {
+    margin-left: 5px;
+}
+
+#slider {
+    height: 24px;
+    outline: none;
+    border-radius: 3px;
+    width: 402px;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+input[type=range] {
+    height: 20px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    color: green;
+    width: 100%;
+    height: 8px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: rgb(68, 201, 121);
+    border-radius: 4px;
+    border: 2px solid rgb(68, 201, 121);
+  }
+  input[type=range]::-webkit-slider-thumb {
+    border: 2px solid rgb(68, 201, 121);
+    height: 24px;
+    width: 24px;
+    border-radius: 6px;
+    background: rgb(68, 201, 121);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -11px;
+  }
+
+  input[type="range"]::-moz-range-progress {
+    background-color: blue; 
+  }
+
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    border: 2px solid rgb(255, 118, 118);
+    background: rgb(255, 118, 118);
+  }
+  input[type=range]::-moz-range-track { 
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 10px 1px 10px rgb(255, 118, 118);
+    background: rgb(255, 118, 118);
+    border-radius: 4px;
+    border: 2px solid rgb(255, 118, 118);
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 10px 1px 10px rgb(255, 118, 118);
+    border: 2px solid rgb(255, 118, 118);
+    height: 30px;
+    width: 30px;
+    border-radius: 0px;
+    background: rgb(255, 118, 118);
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+
+  #spanEle::before {
+    position: absolute;
+    content: "";
+    height: 35px;
+    width: 35px;
+    background: rgb(68, 201, 121);
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 500;
+    transform: translateX(-35%) rotate(45deg);
+    z-index: -1; 
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+.middleContent {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-left: 380px;
+    margin-top: 70px;
+}
+
+.middleContent > h1 {
+  text-align: center;
+    color: white;
+    font-size: 70px;
+    font-weight: 900;
+    font-family:'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+.rangeDiv {
+  position: relative;
+    margin-bottom: 10px;
+    height: 64px;
+    width: 450px;
+    background-color: #171c2b;
+    border-radius: 15px;
+    margin-top: 30px;
+}
+
+.sliderValue {
+  position: relative;
+  margin-left: 24px;
+  margin-right: 34px;
+}
+
+.rangeDivBox {
+  margin-bottom: 10px;
+  height: 64px;
+  width: 450px;
+  background-color: #171c2b;
+  border-radius: 15px;
+  display: flex;
+}
+
+.rangeNumber {
+    display: flex;
+    width: 404px;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-bottom: 20px;
+}
+
+.rangeNumber > p {
+    color:rgb(211, 197, 197);
+    font-size: 10px;
+}
+
+.bet {
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 25px;
+    color: rgb(206, 194, 194);
+    font-weight: 900;
+    border-right-width: thin ;
+    font-size: 15px;
+}
+
+.rangeDiv > input{
+  outline: none !important;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: #171c2b;
+  border:none;
+  font-size: 20px;
+  font-family:'Montserrat', sans-serif;
+  margin-left: 20px;
+  color:white;
+  width: 100px;
+  font-weight: 800;
+}
+
+.rangeDivBox > input{
+    outline: none !important;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    background-color: #171c2b;
+    border:none;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    margin-left: 20px;
+    color:white;
+    width: 100px;
+    font-weight: 800;
+}
+
+.maxButton {
+    align-content: center;
+    background-color: #182137;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: white;
+    margin-left: 30px;
+    color: rgb(206, 194, 194);
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.matic {
+    padding: 20px;
+    padding-right: 10px;
+    padding-left: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    border-left-width: thin ;
+    font-size: 15px;
+    margin-left: 12px;
+    padding-left: 40px;
+}
+
+.maticLogo {
+    height: 15px;
+    width: 15px;
+    margin-top: 24px;
+    margin-right: 20px;
+}
+
+.table {
+    color:rgb(205, 191, 191);
+    font-size: 10px; 
+    font-weight: 600; 
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+
+.secondTableElement {
+    padding-left: 140px;
+}
+
+.maxButton:hover {
+    background-color: #212b44;
+}
+
+.connectWalletMainDiv {
+    height: 64px;
+    width: 450px;
+}
+.connectWalletMainButton{
+    height: 55px;
+    width: 450px;
+    transition: all .5s ease;
+    color: #5a75b5;
+    border: 2px solid #5a75b5;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1;
+    font-size: 17px;
+    background-color : transparent;
+    padding: 12px;
+    outline: none;
+    border-radius: 18px;
+    font-weight:700;
+}
+
+.connectWalletMainButtonA{
+  height: 55px;
+  width: 450px;
+  transition: all .5s ease;
+  color: #5a75b5;
+  border: 2px solid #5a75b5;
+  font-family:'Montserrat', sans-serif;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color : rgb(236, 226, 226);
+  padding: 12px;
+  outline: none;
+  border-radius: 18px;
+  font-weight:700;
+}
+
+.connectWalletMainButton:hover {
+    background-color: rgb(236, 226, 226);
+}
+
+.canvas {
+    height: 600px;
+}
+.coinVideo {
+  margin-left: 150px;
+}
+
+

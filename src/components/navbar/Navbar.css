@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-bars {
+    margin-left: 1.5rem;
+    font-size: 1.5rem;
+    background: none;
+    color: white;
+}
+.navbarmenu {
+  position: fixed;
+}
+
+.nav-menu {
+    display: block;
+    padding-right: 50px;
+    background-color: #182137;
+    height: 100vh;
+    width: 300px;
+    justify-content: center;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px  0px 8px 16px;
+    list-style: none;
+    height: 60px;
+    margin-left: 40px;
+}
+
+.nav-text-current {
+  background-color:  #171c2b;
+  border-radius: 100px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px  0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  margin-left: 40px;
+}
+
+.nav-text-current a {
+  text-decoration: none;
+  color: #2e364e;
+  font-size: 23px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px ;
+  border-radius: 4px;
+}
+.nav-text-current a span {
+  color: #546a9c;
+}
+
+
+.nav-text a:hover {
+  color:  #546a9c;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #2e364e;
+    font-size: 23px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px ;
+    border-radius: 4px;
+}
+
+.nav-text a:hover {
+    background-color:  #171c2b;
+    border-radius: 15px;
+}
+
+.nav-menu-items {
+    width: 100%;
+
+}
+
+.navbar-toggle {
+    background-color: #182137;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+span {
+    margin-left: 16px;
+    margin-top: 3px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span:hover {
+    color:  #546a9c;
+}
+
+.nav-text a:hover {
+    color:  #546a9c;
+}
+
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn20 {
+    background-image: linear-gradient(
+      to right,
+      #667eea,
+      #764ba2,
+      #6b8dd6,
+      #8e37d7
+    );
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+  }
+
+
+  .swordIcon {
+    color:white;
+    margin-left: 8rem;
+    font-size: 3rem;
+    background: none;
+    margin-top: 1rem;
+  }
+
+  .socialLinks {
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    margin-left: 30px;
+    margin-top: 70px;
+    font-size: 24px;
+  }
+
+  /* .socialLinks > a:hover{
+    align-self: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    background-color: black;
+  } */
+
+
+
